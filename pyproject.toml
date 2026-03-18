@@ -1,0 +1,13 @@
+[project]
+name = "machine-learning-model"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "faiss-cpu>=1.13.2",
+    "openai>=2.29.0",
+    "pypdf>=6.9.1",
+    "sentence-transformers>=5.3.0",
+    "streamlit>=1.55.0",
+]
